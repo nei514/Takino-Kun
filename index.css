@@ -1,0 +1,19 @@
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#map {
+    background: rgba(12,18,28);
+}
+#regionSelect {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999; /* ← これ重要 */
+    background: white;
+    padding: 4px;
+}
+.leaflet-control {
+    z-index: 1000;
+}
